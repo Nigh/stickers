@@ -17,7 +17,7 @@
 | 路径 | 说明 |
 |------|------|
 | `mihiro1.png` / `mihiro2.png` | 表情包合集预览图 |
-| `images/` | 单张表情包素材 |
+| `images/mahiro/` | Mihiro 单张表情包素材（`001.png`–`024.png`） |
 
 ## 许可协议
 
