@@ -4,20 +4,18 @@
 
 ## 预览
 
-### mihiro1
+### mihiro
 
-![mihiro1](./mihiro1.png)
+![mihiro1](./mihiro1.webp)
 
-### mihiro2
-
-![mihiro2](./mihiro2.png)
+![mihiro2](./mihiro2.webp)
 
 ## 目录结构
 
 | 路径 | 说明 |
 |------|------|
-| `mihiro1.png` / `mihiro2.png` | 表情包合集预览图 |
-| `images/mahiro/` | Mihiro 单张表情包素材（`001.png`–`024.png`） |
+| `mihiro*.webp` | 表情包合集预览图 |
+| `images/mahiro/` | Mihiro 单张表情包素材（`001.png`–`036.png`） |
 
 ## 许可协议
 
