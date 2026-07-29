@@ -6,18 +6,20 @@
 
 ### mahiro
 
-![mihiro1](./mahiro1.webp)
+![mihiro](./mahiro1.webp)
 
-![mihiro2](./mahiro2.webp)
+![mihiro](./mahiro2.webp)
 
-![mihiro2](./mahiro3.webp)
+![mihiro](./mahiro3.webp)
+
+![mihiro](./mahiro4.webp)
 
 ## 目录结构
 
 | 路径 | 说明 |
 |------|------|
 | `mihiro*.webp` | 表情包合集预览图 |
-| `images/mahiro/` | Mihiro 单张表情包素材（`001.png`–`036.png`） |
+| `images/mahiro/` | Mihiro 单张表情包素材（`001.png`–`047.png`） |
 
 ## 许可协议
 
