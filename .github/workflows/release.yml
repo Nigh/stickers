@@ -22,8 +22,11 @@ jobs:
           found=0
           for dir in images/*/; do
             [ -d "$dir" ] || continue
-            found=1
             name=$(basename "$dir")
+            case "$name" in
+              *-previews) continue ;;
+            esac
+            found=1
             echo "Packing ${name}.zip"
             (cd "$dir" && zip -r "../../dist/${name}.zip" .)
           done

@@ -6,20 +6,17 @@
 
 ### mahiro
 
-![mihiro](./mahiro1.webp)
-
-![mihiro](./mahiro2.webp)
-
-![mihiro](./mahiro3.webp)
-
-![mihiro](./mahiro4.webp)
+![mahiro 预览](./mahiro-preview.jpg)
 
 ## 目录结构
 
 | 路径 | 说明 |
 |------|------|
-| `mihiro*.webp` | 表情包合集预览图 |
-| `images/mahiro/` | Mihiro 单张表情包素材（`001.png`–`047.png`） |
+| `mahiro-preview.jpg` | 从系列预览图纵向拼接生成的长图 |
+| `images/mahiro/` | Mahiro 单张表情包素材 |
+| `images/mahiro-previews/` | Mahiro 系列预览图（JPEG，质量 50） |
+
+更新系列预览图后，运行 `scripts/update-previews.sh`，脚本会从各 `images/*-previews/` 目录重新生成根目录长图。图片按文件名顺序排列；宽度不同时会居中并以白色补齐。
 
 ## 许可协议
 
